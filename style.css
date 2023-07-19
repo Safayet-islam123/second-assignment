@@ -60,3 +60,21 @@ header {
 #game{
   color: #FF42A5;
 }
+
+/* banner section */
+
+.banner-container{
+  display: flex;
+  margin: 0px auto;
+}
+.banner-text{
+  margin: 148px 310px 148px 240px;
+}
+.banner-images{
+  padding: 0px;
+  margin-right: 240px;
+}
+.banner-img{
+  width: 515px;
+  height: 700px;
+}
