@@ -179,6 +179,12 @@ header {
   display: flex;
   gap: 24px;
 }
+.img-text{
+  color: #534C64;
+  font-size: 15px;
+  font-weight: 500;
+}
+
 .funny-image {
   width: 282px;
   height: 350px;
