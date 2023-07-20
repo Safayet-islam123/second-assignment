@@ -4,7 +4,7 @@ body {
 header {
   height: 130px;
   background: #fff;
-  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 30px 1px rgba(0, 0, 0, 0.05);
 }
 
 /* nav bar */
@@ -13,7 +13,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 150px;
+  margin: 0px 152px;
   height: 130px;
 }
 .logo {
@@ -21,7 +21,7 @@ header {
   align-items: center;
 }
 .img1 {
-  width: 86.041px;
+  width: 85px;
   height: 40px;
 }
 .paragraph1 {
@@ -37,12 +37,18 @@ header {
   margin-right: 32px;
   list-style: none;
 }
+.menu li a{
+  color: #534c64;
+}
 .menu a {
   text-decoration: none;
 }
+.menu li a:hover{
+  color: #f61c0d;
+}
 .icon {
   text-align: center;
-  width: 262px;
+  width: 230px;
   height: 56px;
   flex-shrink: 0;
   border-radius: 8px;
@@ -74,6 +80,9 @@ header {
     rgba(255, 66, 165, 0.03) 0%,
     rgba(255, 66, 165, 0.03) 100%
   );
+  /* background-image: url('./images/Group 14.png');
+  background-repeat: no-repeat;
+  background-size: contain; */
 }
 .banner-images {
   padding: 0px;
@@ -136,4 +145,176 @@ header {
 .Rogue {
   background: #4ec5f7;
   margin-left: 7px;
+}
+
+/* funny video section */
+
+.funny-videos {
+  margin: 120px 150px;
+}
+.funny-title {
+  text-align: center;
+  color: #0b0223;
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.funny {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px;
+  font-weight: 700;
+}
+.funny-text {
+  color: #534c64;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 48px;
+}
+.img-container {
+  display: flex;
+  gap: 24px;
+}
+.funny-image {
+  width: 282px;
+  height: 350px;
+}
+.play-instantly {
+  margin: 120px 150px 0px 270px;
+  display: flex;
+  justify-content: space-between;
+  height: 705px;
+}
+.poster {
+  margin-right: 100px;
+  margin-top: 200px;
+}
+.poster-heading {
+  text-align: right;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.poster-paragraph {
+  color: #534c64;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+.inatantly {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play-image .img1 {
+  width: 580px;
+  height: 630px;
+  border-radius: 8px;
+  margin-left: 120px;
+}
+.cute-image {
+  position: relative;
+  bottom: 260px;
+}
+
+.cute-image .img2 {
+  width: 290px;
+  height: 340px;
+}
+.link {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+}
+.quick-links {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  padding: 120px 150px 0px;
+}
+.quick-links1 {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  padding: 30px 255px 120px;
+}
+.btn-secondery {
+  display: flex;
+  /* width: 300px; */
+  height: 70px;
+  padding: 9px;
+  border: none;
+  gap: 5px;
+  align-items: center;
+  border-radius: 50px;
+  background: #fff;
+}
+.btn-secondery:hover {
+  color: #ff42a5;
+  border: 1px solid #ff42a5;
+}
+footer {
+  padding: 115px 0px;
+  color: #fff;
+  background: #0b0223;
+}
+.footer-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-pg {
+  margin: 0px;
+  color: #fff;
+  margin-left: 20px;
+}
+.footer-text {
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.footer-text a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+.footer-text a:hover {
+  color: #f61c0d;
+}
+.footer-icons {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.footer-icons a {
+  color: #fff;
+}
+.footer-terms {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.footer-copyright p{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
