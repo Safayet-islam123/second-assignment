@@ -80,9 +80,6 @@ header {
     rgba(255, 66, 165, 0.03) 0%,
     rgba(255, 66, 165, 0.03) 100%
   );
-  /* background-image: url('./images/Group 14.png');
-  background-repeat: no-repeat;
-  background-size: contain; */
 }
 .banner-images {
   padding: 0px;
@@ -240,6 +237,9 @@ header {
   width: 282px;
   height: 350px;
 }
+
+/* play-instantly */
+
 .play-instantly {
   margin: 120px 150px 0px 270px;
   display: flex;
@@ -284,6 +284,9 @@ header {
   width: 290px;
   height: 340px;
 }
+
+/* link section */
+
 .link {
   background: linear-gradient(
     90deg,
@@ -318,6 +321,9 @@ header {
   color: #ff42a5;
   border: 1px solid #ff42a5;
 }
+
+/* footer section */
+
 footer {
   padding: 115px 0px;
   color: #fff;
